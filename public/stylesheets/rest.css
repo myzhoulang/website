@@ -1,0 +1,75 @@
+/* reset.css */
+
+body,
+ul,
+ol,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+dl,
+dd,
+form,
+input,
+textarea,
+td,
+th {
+	margin: 0;
+	padding: 0;
+	font-family:  Monaco, Arial, "微软雅黑";
+}
+
+li {
+	list-style: none;
+	vertical-align: top;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+textarea {
+	resize: none;
+	overflow: auto;
+}
+
+img {
+	border: none;
+	vertical-align: top;
+}
+
+em {
+	font-style: normal;
+}
+
+a {
+	text-decoration: none;
+}
+
+mark {
+	background: #c33;
+	color: #fff;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	min-width: 1200px;
+	overflow-x: hidden;
+	min-height: 100%;
+	position: relative;
+	-webkit-transition: 0.8s ease all;
+	-moz-transition: 0.8s ease all;
+	transition: 0.8s ease all;
+	background: #f1f1f1;
+}
+
+a,
+input,
+textarea {
+	outline: none;
+}

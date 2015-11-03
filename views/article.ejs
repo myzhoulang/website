@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>
+		<%= title %>
+	</title>
+	<link rel="stylesheet" href="/stylesheets/rest.css">
+	<link rel='stylesheet' href='/stylesheets/style.css?t=1' />
+</head>
+
+<body>
+  <header id="header">
+    <div class="container clearfix">
+      <a href="/" id="logo">
+        <h1>Logger</h1>
+      </a>
+
+      <nav class="main-nav">
+        <ul>
+          <li class="active"><a href="/">Home</a></li>
+          <li><a href="">Html</a></li>
+          <li><a href="">Css</a></li>
+          <li><a href="">JavaScript</a></li>
+          <li><a href="">Nodejs</a></li>
+          <li><a href="">Mongodb</a></li>
+          <li><a href="">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="container main-warp clearfix">
+    <section class="main">
+      <article>
+        <div class="z-article">
+          <div class="z-box article-header">
+            <header class="z-box-header">
+              <h2>AWESOM IMAGE POST</h2>
+            </header>
+            <div>
+              <div class="label">
+                <i class="icon"></i>
+                <span>BY:</span>
+                <span class="text-tip">BEGHA</span>
+              </div>
+              <div class="label">
+                <i class="icon"></i>
+                <span>BY:</span>
+                <span>BEGHA</span>
+              </div>
+              <div class="label">
+                <i class="icon"></i>
+                <span>BY:</span>
+                <span>BEGHA</span>
+              </div>
+              <div class="label">
+                <i class="icon"></i>
+                <span>BY:</span>
+                <span>BEGHA</span>
+              </div>
+            </div>
+          </div>
+
+          <!--文章内容-->
+          <div class="z-box article-content">
+            <div class="article-text">
+              <img src="/images/blog1.jpg" width="100%" alt="">
+              <p>When an EventEmitter instance experiences an error, the typical action is to 
+    emit an 'error' event. Error events are treated as a special case in Node.js. 
+    If there is no listener for it, then the default action is to print a stack 
+    trace and exit the program.</p>
+
+             <p>All EventEmitters emit the event 'newListener' when new listeners are added and 
+    'removeListener' when a listener is removed.</p>
+            </div>
+
+            <!--文章关注度-->
+            <div class="article-action">
+              <div class="label article-see">
+                <i class="icon"></i>
+                <span>BY:</span>
+                <span>BEGHA</span>
+              </div>
+
+              <a href="#" class="label article-share">
+                <i class="icon"></i>
+                <span>BY:</span>
+                <span>BEGHA</span>
+              </a>
+
+              <!--读取更多-->
+              <a href="" class="z-btn readMore">
+                Read More
+              </a>
+            </div>
+          </div>
+        </div>
+      </article>
+      
+      <!--page-->
+      <div class="pages">
+        <a href="" class="label prv-page">
+          <span class="icon"></span>
+          <span class="">OLD ENTRIES</span>
+        </a>
+        
+        <a href="" class="label next-page">
+          <span class="">NEW ENTRIES</span>
+          <span class="icon"></span>
+        </a>
+      </div>
+      
+      <!--comment-->
+      <div class="z-box comment">
+        <header class="z-box-header clearfix">
+          <div class="icon"></div>
+          <h2 class="title">Comments <span class="text-tip">(3)</span></h2>
+        </header>
+        
+        <div class="comment-body">
+          <div class="media">
+            <div class="media-left">
+              <img src="/images/media.jpg" alt="">
+            </div>
+            <div class="media-body">
+              <h4 class="media-head text-tip">zhoulang</h4>
+              <p class="media-dt">2014-05-06 07:21:25</p>
+              <div class="media-content">
+                本文深入探讨vertical-align和line-height之间的关系，属于中长篇，有很多其他地方看不到的知识点。实例效果就在文章页面上，因此，请使用合适的浏览器查看本文。截图丰
+  富，源代码展示详尽，相信本文的内容会对您的学习有所帮助的。
+              </div>
+              
+              <!--回复-->
+              <div class="media">
+                <div class="media-left">
+                  <img src="/images/media.jpg" alt="">
+                </div>
+                <div class="media-body">
+                  <h4 class="media-head text-tip">zhoulang</h4>
+                  <p class="media-dt">2014-05-06 07:21:25</p>
+                  <div class="media-content">
+                    本文深入探讨vertical-align和line-height之间的关系，属于中长篇，有很多其他地方看不到的知识点。实例效果就在文章页面上，因此，请使用合适的浏览器查看本文。截图丰
+      富，源代码展示详尽，相信本文的内容会对您的学习有所帮助的。
+                  </div>
+                </div>
+                <a href="#form-comment" class="z-btn">回复</a>
+            </div>
+          </div>
+          
+            <a href="#form-comment" class="z-btn">回复</a>
+          </div>
+          <div class="media">
+            <div class="media-left">
+              <img src="/images/media.jpg" alt="">
+            </div>
+            <div class="media-body">
+              <h4 class="media-head text-tip">zhoulang</h4>
+              <p class="media-dt">2014-05-06 07:21:25</p>
+              <div class="media-content">
+                本文深入探讨vertical-align和line-height之间的关系，属于中长篇，有很多其他地方看不到的知识点。实例效果就在文章页面上，因此，请使用合适的浏览器查看本文。截图丰
+  富，源代码展示详尽，相信本文的内容会对您的学习有所帮助的。
+              </div>
+            </div>
+            <a href="#form-comment" class="z-btn">回复</a>
+          </div>
+        </div>
+      </div>
+    
+      <!--form-->
+    
+      <div class="z-box form-comment" id="form-comment">
+        <header class="z-box-header clearfix">
+          <div class="icon"></div>
+          <h2 class="title">Add Comment</h2>
+        </header>
+        
+        <form class="z-form">
+          <div class="z-form-group">
+            <label for="">Name</label>
+            <input type="text" class="z-form-control">
+          </div>
+          
+          <div class="z-form-group">
+            <label for="">Email</label>
+            <input type="text" class="z-form-control">
+          </div>
+          
+          <div class="z-form-group">
+            <label for="">Website</label>
+            <input type="text" class="z-form-control">
+          </div>
+          
+          <div class="z-form-group">
+            <label for="">Comment</label>
+            <textarea class="z-form-control"></textarea>
+          </div>
+          
+          <div class="z-form-group">
+            <button class="z-btn">POST COMMENT</button>
+          </div>
+        </form>
+      </div>
+    </section>
+    
+    <aside class="aside">
+      
+      <!--search-->
+      <section class="search">
+        <div class="z-box ">
+          <header class="z-box-header clearfix">
+            <div class="icon"></div>
+            <h2 class="title">search</h2>
+          </header>
+
+          <div class="z-box-content">
+            <div class="z-form-group">
+              <input type="text" class="z-form-control" placeholder="LOOKING FOR...">
+            </div>
+            <div class="z-form-group">
+              <button class="z-btn z-btn-block">SEARCH NOW</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <!--Categories-->
+      <sction>
+        <div class="z-box tags Categories">
+          <header class="z-box-header clearfix">
+            <div class="icon"></div>
+            <h2 class="title">Categories</h2>
+          </header>
+
+          <div class="z-box-content">
+            <ul class="lists">
+              <li><a href="" class="item">CANVAS</a></li>
+              <li><a href="" class="item">SVG</a></li>
+              <li><a href="" class="item">WebWork</a></li>
+              <li><a href="" class="item">LocalStroage</a></li>
+              <li><a href="" class="item">HTML5</a></li>
+              <li><a href="" class="item">CSS3</a></li>
+              <li><a href="" class="item">JavaScript</a></li>
+            </ul>
+          </div>
+        </div>
+      </sction>
+      
+      <!--tags-->
+      <section>
+        <div class="z-box tags">
+          <header class="z-box-header clearfix">
+            <div class="icon"></div>
+            <h2 class="title">tags</h2>
+          </header>
+
+          <div class="z-box-content">
+            <ul>
+              <li class="label">CANVAS</li>
+              <li class="label">SVG</li>
+              <li class="label">WebWork</li>
+              <li class="label">LocalStroage</li>
+              <li class="label">HTML5</li>
+              <li class="label">CSS3</li>
+              <li class="label">JavaScript</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </aside>
+  </div>
+  
+  <!--footer-->
+  <footer id="footer">
+   
+    <div class="container">
+      <p>© 2015 Envato Pty Ltd. | by <span class="text-tip">ZhouLang</span></p>
+    </div>
+  </footer>
+
+</body>
+
+</html>
