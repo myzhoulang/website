@@ -158,7 +158,6 @@ textarea.z-form-control {
 .pages {
   margin-bottom: 30px;
   width: 100%;
-  float: left;
 }
 .pages:before,
 .pages:after {
@@ -216,7 +215,7 @@ textarea.z-form-control {
   margin-bottom: 0;
 }
 body {
-  background: url(/images/headerTop.png) no-repeat top left;
+  background: url(/images/headerTop.png) repeat-x top left;
 }
 .container {
   width: 1170px;
