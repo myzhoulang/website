@@ -175,29 +175,29 @@
           <h2 class="title">Add Comment</h2>
         </header>
         
-        <form class="z-form">
+        <form class="z-form" id="post_comment">
           <div class="z-form-group">
             <label for="">Name</label>
-            <input type="text" class="z-form-control">
+            <input type="text" class="z-form-control" name="author">
           </div>
           
           <div class="z-form-group">
             <label for="">Email</label>
-            <input type="text" class="z-form-control">
+            <input type="text" class="z-form-control" name="email">
           </div>
           
           <div class="z-form-group">
             <label for="">Website</label>
-            <input type="text" class="z-form-control">
+            <input type="text" class="z-form-control" name="website">
           </div>
           
           <div class="z-form-group">
             <label for="">Comment</label>
-            <textarea class="z-form-control"></textarea>
+            <textarea class="z-form-control" name="comment"></textarea>
           </div>
           
           <div class="z-form-group">
-            <button class="z-btn">POST COMMENT</button>
+            <button class="z-btn" type="submit">POST COMMENT</button>
           </div>
         </form>
       </div>
@@ -278,6 +278,8 @@
     </div>
   </footer>
 
+	<script src="//cdn.bootcss.com/jquery/2.1.4/jquery.min.js"></script>
+	<script src="/javascripts/index.js"></script>
 </body>
 
 </html>

@@ -24,7 +24,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/', routes.index);
-app.get('/articles/:id', routes.article);
+app.get('/article/:id', routes.article);
 app.get('/lists/:type', routes.lists);
 app.use('/users', users);
 
